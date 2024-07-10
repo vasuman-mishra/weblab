@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    
+</head>
+<body>
+
+<form>
+    <h2>Student Form</h2>
+
+        <label for="name">Name: *</label>
+        <input type="text" id="name" name="name" pattern="[A-Za-z\s]+" required placeholder="Enter your name">
+        <br>
+ 
+
+
+        <label for="email">Email: *</label>
+        <input type="email" id="email" name="email" required placeholder="Please enter a valid email address">
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="\d{3}-\d{3}-\d{4}" placeholder="080-555-5555">
+        <br>
+        <label for="semester">Semester:</label>
+        <input type="number" id="semester" name="semester" min="1" max="8">
+        <br>
+        <label for="branch">Branch:</label>
+        <input list="branches" id="branch" name="branch" placeholder="Select or type your branch">
+        <datalist id="branches">
+            <option value="Computer Science">
+            <option value="Electrical Engineering">
+            <option value="Mechanical Engineering">
+            <option value="Civil Engineering">
+            <option value="Chemical Engineering">
+        </datalist>
+        <br>
+        <label for="website">Website: *</label>
+        <input type="url" id="website" name="website" pattern="https?://.+" required placeholder="http:// or https://">
+        <br>
+        <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>

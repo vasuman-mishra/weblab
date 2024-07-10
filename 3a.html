@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>3a</title>
+</head>
+    <script >
+    function calculateTax(tax) {
+  return function (price) {
+    return price + price * tax;
+  };
+}
+
+const tax1 = calculateTax(0.8);
+const tax2 = calculateTax(0.6);
+
+console.log(tax1(2000)); // 7
+console.log(tax2(2000)); // 12
+
+    </script>
+</html>
