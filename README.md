@@ -21,6 +21,16 @@ For the "B" part of each question refer to https://github.com/vasuman-mishra/stu
 
 2a
 
+For this program, we have to find closure.
+ 
+ Open the html in google chrome
+ 
+ press Ctrl+shift+i
+ 
+ go to sources
+ 
+ set a breakpoint by clicking at console.log line
+
 ```bash
   Open the html file
 ```
@@ -85,20 +95,21 @@ add "start":"node index.js"
 ```
 9a
 
+unzip node modules.zip and add to the folder
+
 
 ```bash
  cd 9a
- npm install express
  node app.js
 ```
 
 
 10a
 
+unzip node modules.zip and add to the folder
+
 ```bash
   cd 10a
-  npm install express
-  npm install cookie-parser
   node app.js
 ```
 
@@ -111,7 +122,7 @@ add "start":"node index.js"
 
 ```bash
   cd 12a
-  Open the html file
+  node main.js
 ```
 
 
