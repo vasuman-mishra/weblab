@@ -27,6 +27,18 @@ For the "B" part of each question refer to https://github.com/vasuman-mishra/stu
 
 3a
 
+ For this program, we have to find closure.
+ 
+ Open the html in google chrome
+ 
+ press Ctrl+shift+i
+ 
+ go to sources
+ 
+ set a breakpoint by clicking at console.log line
+ 
+ there is a scopes dropdown and click on tax1 and tax2 and you will find closure
+
 ```bash
   Open the html file
 ```
@@ -38,7 +50,6 @@ For the "B" part of each question refer to https://github.com/vasuman-mishra/stu
 ```
 
  5a
- 
  
  ```bash
   Open the html file
