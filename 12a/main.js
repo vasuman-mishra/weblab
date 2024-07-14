@@ -1,5 +1,5 @@
-import Stack from './stack.js';
-import Queue from './queue.js';
+let Stack=require("./stack")
+let Queue=require("./queue")
 
 // Stack example
 const stack = new Stack();
